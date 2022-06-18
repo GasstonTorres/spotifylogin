@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Circular STD Medium', sans-serif;
+    
+}
+
+.contenedorLogo{
+    height: 100px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+
+.contenedorLogo .logo {
+    height: 50%;
+
+}
+
+.linea1 {
+    border-top: 1px;
+    color: #d2d1d1;
+}
+
+.logo {
+    margin: auto;
+}
+
+main {
+    width: 450px;
+    margin: 0 auto;
+}
+
+.continuarcon {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 35px;
+    border: none;
+}
+
+.initfb {
+    margin-top: 20px;
+    background-color: #3B5998;
+    color: #f2f1f1;
+    letter-spacing: 1px;
+}
+
+.initapple {
+    background-color: black;
+    color: #f2f1f1;
+    letter-spacing: 1px;
+   
+
+}
+
+.initgoogle ,.inittel, .suscribe {
+    background-color: #fbfbfb;
+    color: #6a6a6a;
+    border: solid 1px #6a6a6a;
+    letter-spacing: 1px;
+}
+
+
+.lineao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.linea2, .linea3 {
+    width: 200px;
+    border: none;
+    border-top: 1px solid #d2d1d1;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+label {
+    font-size: 15px;
+}
+
+input[type=text] {
+    width: 100%;
+    height: 50px;
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: normal;
+    border: solid 1px #6A6E72;
+}
+input[type=password] {
+width: 100%;
+height: 50px;
+margin: 10px 0;
+font-size: 16px;
+font-weight: normal;
+border: solid 1px #6A6E72;
+}
+
+p a {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.iniciarsesion {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.checked :checked {
+    box-shadow: 0 0 0 3px lime;
+    color: red;
+}
+
+input[type=submit] {
+    width: 40%;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    margin: 10px;
+    background: #1ED760;
+    letter-spacing: 1px;
+}
+
+.noacount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.noacount span {
+margin: 20px;
+font-size: 20px;
+}
+
